@@ -23,9 +23,9 @@ function loop() {
         drawSnake();
     }
 
-    if(points >= 10) {
-        moveObstacles();
-        drawObstacles();
-    }
+    // if(points >= 10) {
+    //     moveObstacles();
+    //     drawObstacles();
+    // }
     movementLock = false;
 }
