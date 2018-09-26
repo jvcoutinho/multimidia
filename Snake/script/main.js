@@ -1,7 +1,7 @@
 var canvas = document.querySelector("#canvas");
-canvas.setAttribute("width", window.innerWidth / 2);
-canvas.setAttribute("height", window.innerHeight / 1.2);
+canvas.setAttribute("width", window.innerWidth - 4);
+canvas.setAttribute("height", window.innerHeight - 50.89);
 var context = canvas.getContext("2d");
 
-start();
-setInterval(loop, 1000/20);
+var pointsHTML = document.querySelector("#points");
+setTimeout(loop, 60);

@@ -1,8 +1,0 @@
-function start() {
-    
-}
-
-
-function loop() {
-
-}
